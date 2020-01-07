@@ -1,0 +1,28 @@
+body {
+    background-color:#73f5ca;
+}
+
+.btn-arrow {
+    width: 30%;
+}
+
+.btn-arrow-right {
+    float: left;
+}
+
+.btn-arrow-left {
+    float: right;
+}
+
+.img-item {
+    width: 60%;
+}
+
+#section-clothes-shop {
+    background-color: gray;
+}
+
+#btn-randomize {
+    background: white;    
+    padding: 1em;
+}
