@@ -1,27 +1,88 @@
-h1 {
-		font-family: 'Source Sans Pro', sans-serif;
-		
-		}
-		p {
-		font-family: 'Source Sans Pro', sans-serif;
-		
-		}
-		table {
-  border-collapse: collapse;
-  width: 100%;
+
+
+
+#items {
+	border: 2em;
 }
 
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
+body {
+	background-color: #83c6fc;
 }
 
-tr:nth-child(even) {
-  background-color: #dddddd;
+img {
+	width: 5%;
+	height: 5%;
+}
+.boxxx {
+	display: flex;
+	flex-flow: column wrap;
+	padding: 2em;
+	width: 10em;
+	align-items: flex-start;
+	justify-content: space-between;
+
+}
+.bigbox {
+	display: flex;
+	flex-flow: row wrap;
+}
+.picc {
+	width: 5em;
+	height: 5em;
+}
+.smolbox {
+	display: flex;
+	flex-flow: row wrap;
+	align-content: space-between;
+}
+#check {
+color: white;
+}
+#navbar {
+	overflow: hidden;
+  	background-color: #42637d;
+}
+#navbar a {
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  	float: left;
+  	color: #f2f2f2;
+  	padding: 1em;
+  	text-decoration: none;
+  }
+  #navbar p {
+  	float: right;
+  	padding: 1em;
+  }
+  #bttn {
+	  background-color: lightgreen;
+  	transition-duration: 0.4s;
+  	border-radius: 10%;
+  	margin: 1em;
 }
 
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
+#bttn:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+  
+  #bttn2 {
+	  background-color: pink;
+  	transition-duration: 0.4s;
+  	border-radius: 10%;
+  	margin: 1em;
+}
+
+#bttn2:hover {
+  background-color: #FF0000;
+  color: white;
+}
+#titlee {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 1.75em;
+	color: white;
 }
