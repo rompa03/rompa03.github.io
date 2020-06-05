@@ -35,7 +35,7 @@
 		</img>
 		<p style="font-size:50px" id="temperature" onclick="testt()"> the weather is </p>        <center><img id="clothes">  </img></center>
 		      
-				<p style="font-size:100"> <a href="https://www.figma.com/proto/XFgsEUOCygUdWvQHPwlq0o/Untitled?node-id=41%3A8&scaling=scale-down"> Try it out!
+				<p style="font-size:100"> <a href="https://www.figma.com/proto/XFgsEUOCygUdWvQHPwlq0o/Untitled?node-id=41%3A8&scaling=scale-down" onclick= "LogAnalytics()"> Try it out!
   </p>
   </a>
   
@@ -72,6 +72,13 @@
   
   
 <script>
+	
+function LogAnalytics() {
+console.log("Button pressed")
+gtag("event", "TryItOut", {
+"event_category": "aaaaaaa"
+});
+}	
 
 var temperaturee = Math.floor(Math.random() * 40) + -15;
 
